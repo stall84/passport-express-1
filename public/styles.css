@@ -1,0 +1,27 @@
+/* Styling to render out user-posts to server.js */
+
+body {
+    background-color: #ffb8db;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 38px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
